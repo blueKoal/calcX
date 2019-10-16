@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #4776e6, #8e54e9);
+    color: white;
+    font-family: 'Be Vietnam', sans-serif;
+}
+#calc{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    font-size: 35px;
+}
+#inclac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+input{
+    width: 150px;
+    height: 50px;
+    margin: 30px;
+    font-size:30px;
+    text-align: center;  
+    border-radius: 10px;
+    border: 0px;
+    color: blueviolet;
+    cursor: pointer;
+}
+#operator{
+    font-size:20px;
+    border: 0px;
+    width: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:white;
+    font-size: 30px;
+    background: rgba(0, 0, 0, 0.685);
+}
+
+#operator:hover{
+    box-shadow: 1px 2px 5px whitesmoke;
+}
+
+p{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#equals2{
+width:100px;
+height:50px;
+padding: 15px;
+background: rgba(196, 49, 78, 0.829);
+color: white;
+font-family: monospace;
+border: 0px;
+border-radius: 10px;
+margin-top: 30px;
+font-size: 20px;
+transition-timing-function: ease-in;
+transition: width 0.4s height 0.4s;
+cursor: pointer;
+
+}
+#equals2:hover{
+
+width: 108px;
+height:50.3px ;
+box-shadow: 1px 2px 5px whitesmoke;
+}
+
+h1:hover{
+    text-shadow: 1px 2px 5px rgba(245, 245, 245, 0.651);
+    cursor:progress;
+}
